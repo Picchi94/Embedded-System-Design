@@ -1,8 +1,9 @@
-Per compilare è necessario usare il Makefile con il comando make presente in ogni cartella
+To compile is necessary to use the Makefile with the make command.
 
 es:
 cd Solutions/HW_Subsystem/RTL
 make -j4
 ./bin/xtea_RTL.x
 
-Una volta compilato ed eseguito all'interno delle cartelle Continuous Subsystem ed Heterogeneous Platform, verranno generati i file di traccia waterwave.vcd, i quali riportano la traccia del livello dell'acqua e dell'apertura della valvola. 
+Once compiled and executed in the Continuous Subsystmes and Heterogeneous Platform, the traces files waterwave.vcd will be generated. This files reports the traces of the water level and valve aperture.
+
